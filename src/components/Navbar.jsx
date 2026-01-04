@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import logo from '../images/logo.png';
 
 const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
@@ -37,7 +38,7 @@ const Navbar = () => {
                 {/* Logo */}
                 <div className="flex items-center gap-3 cursor-pointer">
                     <img
-                        src="/logo.png"
+                        src={logo}
                         alt="iV Aesthetic Beauty Salon"
                         className="h-16 w-auto object-contain"
                     />

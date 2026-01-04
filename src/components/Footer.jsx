@@ -1,12 +1,13 @@
 import React from 'react';
 import { Instagram, Facebook, MapPin, Phone, Mail } from 'lucide-react';
+import logo from '../images/logo.png';
 
 const Footer = () => {
     return (
         <footer className="bg-gray-900 text-white py-16">
             <div className="container mx-auto px-6 grid md:grid-cols-3 gap-12 text-center md:text-left">
                 <div>
-                    <img src="/logo.png" alt="iV Aesthetic" className="h-12 mb-6 object-contain mx-auto md:mx-0 filter brightness-0 invert" />
+                    <img src={logo} alt="iV Aesthetic" className="h-12 mb-6 object-contain mx-auto md:mx-0 filter brightness-0 invert" />
                     <p className="text-gray-400 font-light mb-6">
                         Refined beauty for the modern woman.
                     </p>

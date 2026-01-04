@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
+import hero from '../images/hero.jpg';
 
 const Hero = () => {
     return (
@@ -8,7 +9,7 @@ const Hero = () => {
             <div className="absolute inset-0 z-0">
                 <div className="absolute inset-0 bg-gradient-to-r from-white/60 to-transparent z-10" />
                 <img
-                    src="/images/hero.jpg"
+                    src={hero}
                     alt="Luxury Beauty Model"
                     className="w-full h-full object-cover object-center opacity-90"
                 />

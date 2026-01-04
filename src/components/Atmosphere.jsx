@@ -1,5 +1,6 @@
 import React from 'react';
 import { motion, useScroll, useTransform } from 'framer-motion';
+import interior from '../images/interior.png';
 
 const Atmosphere = () => {
     const { scrollYProgress } = useScroll();
@@ -12,7 +13,7 @@ const Atmosphere = () => {
                 className="absolute inset-0 z-0"
             >
                 <img
-                    src="/images/interior.png" // Using the generated interior image
+                    src={interior}
                     alt="Luxury Salon Interior"
                     className="w-full h-full object-cover"
                 />
