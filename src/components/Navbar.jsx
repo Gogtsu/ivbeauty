@@ -43,7 +43,6 @@ const Navbar = () => {
                     />
                     <span
                         className="font-serif text-3xl text-gray-900 tracking-wide"
-                        style={{ filter: 'drop-shadow(0 0 1px #fff) drop-shadow(0 0 8px #00ffff)' }}
                     >
                         aesthetic
                     </span>
